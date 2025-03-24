@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Tour and Travel Site Design</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="style1.css"> <!-- Ensure the path is correct -->
+</head>
+<body>
+    <!-- Header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>E</span>du Learn</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Enroll</a>
+            <a href="#packages">Courses</a>
+            <a href="#services">Features</a>
+            <a href="#review">Faculty</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <!-- Search form -->
+        <form action="" class="search-bar-container" id="search-form">
+            <input type="search" id="search-bar" placeholder="Search here...." aria-label="Search">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- Header section ends -->
+    <!-- Login form container starts -->
+    <div class="login-form-container" id="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email" required>
+            <input type="password" class="box" placeholder="Enter your password" required>
+            <input type="submit" value="Login Now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+    <!-- Login form container ends -->
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>LEARNING IS POWER</h3>
+            <p>Upgrade Your Skills With Expert-Led Courses</p>
+            <a href="#" class="btn">Explore Courses</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn" data-src="videoss/vid-12.mp4"></span>
+            <span class="vid-btn" data-src="videoss/vid-11.mp4"></span>
+            <span class="vid-btn" data-src="videoss/vid-13.mp4"></span>
+            <span class="vid-btn" data-src="videoss/vid-14.mp4"></span>
+            <span class="vid-btn" data-src="videoss/vid-15.mp4"></span>
+            <span class="vid-btn" data-src="videoss/vid-16.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="videoss/vid-12.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+    <!-- Home section ends -->
+<!--book section starts -->
+<section class="book" id="book">
+<h1 class="heading">
+  <span>e</span>
+  <span>n</span>
+  <span>r</span>
+  <span>o</span>
+  <span>l</span>
+  <span>l</span>
+  <span class ="space"></span>
+  <span>n</span>
+  <span>o</span>
+  <span>w</span>
+</h1>
+
+<div class="row">
+  <div class="image">
+    <img src="images/p-34.jpg" alt="">
+    </div>
+    <form action="">
+    <div class="inputBox">
+        <h3>Student Name</h3>
+            <input type="number" placeholder="Enter Name of Student">
+        </div>
+      <div class="inputBox">
+        <h3>Select Course</h3>
+        <input type="text" placeholder="Enter Course Name">
+      </div>
+      <div class="inputBox">
+        <h3> Start Date</h3>
+        <input type="date">
+      </div>
+      <div class="inputBox">
+        <h3>End Date</h3>
+        <input type="date">
+      </div>
+      <input type="submit" class="btn" value="enroll now">
+    </form>
+</div>
+</section>
+<!--packages section starts-->
+<section class="packages" id="packages">
+  <h1 class="heading">
+    <span>C</span>
+    <span>O</span>
+    <span>U</span>
+    <span>R</span>
+    <span>S</span>
+    <span>E</span>
+    <span>S</span>
+  </h1>
+  <div class="box-container">
+    <div class="box">
+      <img src="images/p-22.jpg" alt="">
+      <div class="content">
+        <h3>Mathematics</h3>
+        <p>Mathematics is the study of numbers, shapes, and patterns, forming the foundation of science, engineering, and technology. It helps solve real-world problems, analyze data, and develop logical thinking skills.</p>
+        <a href ="#" class="btn">Enrollnow</a>
+        <a href="https://ncert.nic.in/textbook.php?kemh1=0-16"><h2>Maths Book</h2></a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/p-23.jpg" alt="">
+      <div class="content">
+        <h3>Science</h3>
+        <p>Science is the systematic study of the natural world, exploring physical, biological, and chemical processes. Through observation and experimentation, it drives innovation, solves global challenges, and enhances our understanding of the universe.</p>
+    
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/p-24.jpeg" alt="">
+      <div class="content">
+        <h3>Social</h3>
+        <p>Social studies explores human society, history, cultures, geography, and governance. It helps us understand societal development, interactions, and challenges while fostering critical thinking, empathy, and global awareness.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/p-25.jpeg" alt="">
+      <div class="content">
+        <h3>Physics</h3>
+        <p>Physics studies matter, energy, and forces, explaining phenomena like gravity, motion, and electricity. It drives technological advancements and helps solve real-world problems in engineering, medicine, and science.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div>  
+    <div class="box">
+      <img src="images/p-26.jpeg" alt="">
+      <div class="content">
+        <h3>Chemistry</h3>
+        <p>Chemistry studies matter, its properties, and reactions. It explains everyday phenomena and drives innovations in medicine, energy, and materials.</p> 
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div> 
+    <div class="box">
+      <img src="images/p-27.jpeg" alt="">
+      <div class="content">
+        <h3>Hindi</h3>
+        <p>Hindi is a widely spoken Indo-Aryan language that connects millions through literature, poetry, and grammar. It enriches cultural understanding, fosters creativity, and promotes awareness of India's heritage and traditions.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div> 
+    <div class="box">
+      <img src="images/p-28.jpeg" alt="">
+      <div class="content">
+        <h3>Computer Science</h3>
+        <p>Computer Science studies computers, programming, and technology-driven problem-solving. It covers software, hardware, AI, and cybersecurity, fostering logic, creativity, and innovation in today's digital world.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div>  
+    <div class="box">
+      <img src="images/p-29.jpeg" alt="">
+      <div class="content">
+        <h3>English</h3>
+        <p>English focuses on language, literature, and communication skills. It enhances grammar, writing, and critical thinking while fostering creativity and cultural understanding essential for success.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div> 
+    <div class="box">
+      <img src="images/p-30.jpeg" alt="">
+      <div class="content">
+        <h3>Art and Craft</h3>
+        <p>Art and Craft fosters creativity and self-expression through drawing, painting, sculpture, and hands-on activities. It enhances motor skills, problem-solving, and appreciation for aesthetic and cultural expression.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div> 
+    <div class="box">
+      <img src="images/p-31.jpeg" alt="">
+      <div class="content">
+        <h3>Economics</h3>
+        <p>Economics studies how resources are allocated to meet needs and wants. It explores supply and demand, markets, and financial systems, helping analyze trade, employment, and economic growth.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div>
+    <div class="box">
+      <img src="images/p-32.jpeg" alt="">
+      <div class="content">
+        <h3>Biology</h3>
+        <p>Biology studies living organisms, their functions, and interactions. It covers genetics, ecology, and physiology, aiding advancements in medicine, agriculture, and environmental science.</p>
+        <a href ="#" class="btn">Enroll now</a>
+      </div>
+    </div> 
+    <div class="box">
+      <img src="images/p-33.jpeg" alt="">
+      <div class="content">
+        <h3>History</h3>
+        <p>History studies past events, civilizations, and key figures, revealing how they shape the present. It helps us understand cultural, social, and political developments while preserving heritage and guiding future decisions.</p>
+        <a href ="#" class="btn">enroll now</a>
+      </div>
+    </div>                      
+</section>
+<!-- package section ends-->
+
+<!-- services section starts-->
+ <section class="services" id="services">
+  <h1 class="heading">
+    <span>F</span>
+    <span>E</span>
+    <span>A</span>
+    <span>T</span>
+    <span>U</span>
+    <span>R</span>
+    <span>E</span>
+    <span>S</span>
+  </h1>
+  <div class="box-container">
+    <div class="box">
+      <i class="fas fa-book"></i>
+      <h3>Affordable Courses</h3>
+      <p>Offers a variety of budget-friendly courses for learners of all levels.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-laptop"></i>
+      <h3>Learning Resources</h3>
+      <p>Access e-books, video tutorials, research papers, and online libraries.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Student Safety Guide</h3>
+      <p>Tips for safe online learning, privacy protection, and avoiding scams.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-globe"></i>
+      <h3>Global Knowledge</h3>
+      <p>Explore diverse subjects, international education programs, and cultural studies.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-bolt"></i>
+      <h3>Fast Learning</h3>
+      <p>Quick and efficient learning techniques, time management tips, and study hacks.</p>
+    </div>
+    <div class="box">
+      <i class="fas fa-chalkboard-teacher"></i>
+      <h3>Skill Development</h3>
+      <p> Hands-on training in coding, design, writing, and professional development.</p>
+    </div>
+  </div>
+ </section>
+<!--review section starts-->
+<section class="review" id="review">
+  <h1 class="heading">
+    <span>F</span>
+    <span>A</span>
+    <span>C</span>
+    <span>U</span>
+    <span>L</span>
+    <span>T</span>
+    <span>Y</span>
+    </h1>
+    <div class=" review-slider">
+      <div class="wrapper">
+        <div class="slider">
+          <div class="box">
+            <img src="images/user.png" alt="">
+            <h3>Padmavathi Ponnaganti</h3>
+            <p>"Passionate about shaping future innovators in technology."</p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="box">
+            <img src="images/user.png" alt="">
+            <h3>A Jeevana Sai Sri</h3>
+            <p>"Empowering students with knowledge and practical skills."</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="box">
+            <img src="images/user.png" alt="">
+            <h3>K Keerthi Reddy</h3>
+            <p>"Committed to excellence in online learning and research."</p>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="box">
+             <img src="images/user.png" alt="">
+             <h3>B Jayant Kumar</h3>
+             <p>"Transforming education through interactive and engaging methods."</p>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+<section class="contact">
+    <h1 class="heading">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/p-35.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <label for="Faculty"><h2>Choose faculty:</h2></label>
+            <select name="faculty" id="Faculty">
+                <option value="padmavathi">P.Padmavathi</option>
+                <option value="jeevana">A.Jeevana Sai Sri</option>
+                <option value="keerthi">K.Keerthi</option>
+                <option value="jayant">B.Jayant Kumar</option>
+            </select>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea id="message" placeholder="message" cols="30" rows="10"></textarea>
+            <div class="faculty-list" id="faculty-list" style="display: none;">
+                <div class="faculty-item" data-value="padmavathi">Padmavathi</div>
+                <div class="faculty-item" data-value="jeevana">Jeevana</div>
+                <div class="faculty-item" data-value="keerthi">Keerthi</div>
+                <div class="faculty-item" data-value="jayant">Jayant</div>
+            </div>
+            <div class="btn-container">
+                <button type="button" id="choose-faculty-btn" class="btn">Contact</button>
+            </div>
+        </form>
+    </div>
+</section>
+</section>
+<!--footer section starts-->
+<section class="footer">
+  <div class="box-container">
+    <div class="box">
+      <h3>about us</h3>
+      <p><strong>EDU LEARN</strong> is an innovative online learning platform that offers high-quality courses from expert instructors.  
+        We provide interactive lessons, live sessions, and hands-on projects to help learners achieve their goals.  
+        Join us to learn anytime, anywhere, and enhance your skills for a better future!
+      </p></p>
+    </div>
+    <div class="box">
+      <h3>branch locations</h3>
+      <a href ="#">Vizag</a>
+      <a href ="#">Mumbai</a>
+      <a href ="#">Chennai</a>
+      <a href ="#">Hyderabad</a>
+      <a href ="#">Delhi</a>
+    </div>
+    <div class="box">
+      <h3>quick links</h3>
+      <a href ="#">Home</a>
+      <a href ="#">Enroll</a>
+      <a href ="#">Courses</a>
+      <a href ="#">Features</a>
+      <a href ="#">Faculty</a>
+      <a href ="#">Contact</a>
+    </div>
+    <div class="box">
+      <h3>Follow us</h3>
+      <a href ="#">facebook</a>
+      <a href ="#">instagram</a>
+      <a href ="#">twitter</a>
+      <a href ="#">Linkedin</a>
+    </div>
+
+  </div>
+  <h1 class="credit">created by <span>Team Smart Ease #25</span>| all rights reserved | :) </h1>
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Custom JS file link -->
+    <script src="script1.js"></script> <!-- Ensure the path is correct -->
+</body>
+
+</html>
